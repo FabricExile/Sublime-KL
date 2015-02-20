@@ -66,7 +66,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(in|io)\s+([A-Z][a-zA-Z0-9_]*)\s+([a-z_][a-zA-Z0-9_]*)\b</string>
+					<string>\b(in|io|out)\s+([A-Z][a-zA-Z0-9_]*)\s+([a-z_][a-zA-Z0-9_]*)\b</string>
 					<key>captures</key>
 					<dict>
 						<key>1</key>
@@ -622,7 +622,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(function|inline|operator|struct|object|interface|alias|use|require|break|case|continue|default|const|var|in|io|private|protected|public|do|else|for|if|use|require|return|switch|throw|while)\b</string>
+			<string>\b(function|inline|operator|struct|object|interface|alias|use|require|break|case|continue|default|const|var|in|io|out|private|protected|public|do|else|for|if|use|require|return|switch|throw|while)\b</string>
 			<key>name</key>
 			<string>keyword.kl</string>
 		</dict>
